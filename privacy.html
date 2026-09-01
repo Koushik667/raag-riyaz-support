@@ -1,74 +1,155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for Raag Riyaz.">
+  <meta name="description" content="How Raag Riyaz handles microphone access, recordings, lesson notes, reminders, sharing and local app data on Apple and Android devices.">
+  <meta name="theme-color" content="#0e0c13">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy — Raag Riyaz">
+  <meta property="og:description" content="Raag Riyaz is offline-first, requires no account and keeps practice content on your device unless you choose to share it.">
+  <meta property="og:url" content="https://koushik667.github.io/raag-riyaz-support/privacy.html">
+  <meta property="og:image" content="https://koushik667.github.io/raag-riyaz-support/assets/og.png">
+  <meta property="og:image:alt" content="Raag Riyaz, your complete daily riyaz">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://koushik667.github.io/raag-riyaz-support/privacy.html">
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
   <title>Privacy Policy — Raag Riyaz</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Raag Riyaz support home">
-      <span class="brand-mark" aria-hidden="true">S</span>
-      <span><strong>Raag Riyaz</strong><small>Official support</small></span>
+    <a class="brand" href="index.html" aria-label="Raag Riyaz home">
+      <img class="brand-icon" src="assets/app-icon.png" width="48" height="48" alt="">
+      <span><strong>Raag Riyaz</strong><small>Hindustani music practice</small></span>
     </a>
-    <nav aria-label="Support navigation">
-      <a href="index.html">Support</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#support">Help</a>
       <a aria-current="page" href="privacy.html">Privacy</a>
+      <a class="nav-cta" href="https://apps.apple.com/app/id6798105423">App Store</a>
     </nav>
   </header>
 
-  <main class="policy">
-    <section class="hero compact">
-      <p class="eyebrow">PRIVACY POLICY</p>
-      <h1>Your practice stays yours.</h1>
-      <p class="lede">Raag Riyaz is developed and provided by Koushik PG. The current version is offline-first and does not require an account.</p>
-      <p class="effective">Effective 21 August 2026</p>
+  <main class="policy" id="main-content">
+    <section class="hero policy-hero">
+      <div>
+        <p class="eyebrow">PRIVACY POLICY</p>
+        <h1>Your practice<br><span>stays yours.</span></h1>
+        <p class="lede">Raag Riyaz is developed and provided by Koushik PG. It is offline-first, requires no account and does not contain advertising or developer-operated tracking.</p>
+        <p class="effective">Effective 1 September 2026</p>
+      </div>
+      <div class="policy-shield" aria-hidden="true"><span>✓</span></div>
     </section>
 
-    <article class="policy-body">
-      <h2>Summary</h2>
-      <p>Raag Riyaz does not contain advertising, developer-operated analytics or tracking, and it does not send your practice content to a developer-operated server. Practice settings, history, recordings, pitch observations, Classroom content and Raag Library content are processed and stored on your device. The Android document scanner’s limited Google Play services diagnostics are described below.</p>
+    <section class="privacy-summary" aria-label="Privacy at a glance">
+      <div><strong>No account</strong><span>No sign-in or profile</span></div>
+      <div><strong>No ads</strong><span>No advertising SDK</span></div>
+      <div><strong>On device</strong><span>Pitch analysis stays local</span></div>
+      <div><strong>Your choice</strong><span>Share only when you decide</span></div>
+    </section>
 
-      <h2>Microphone and audio</h2>
-      <p>The app accesses the microphone only after you grant permission and start a swara exercise, Breath Test or recording feature. Pitch analysis runs on the device. Breath Test stores an improving duration result, not microphone audio. When you choose to record, the resulting audio is saved in the app’s private local storage. Microphone audio and pitch observations are not sent to us.</p>
+    <div class="policy-layout">
+      <nav class="policy-toc" aria-label="Privacy policy contents">
+        <p>On this page</p>
+        <a href="#summary">Summary</a>
+        <a href="#microphone">Microphone &amp; audio</a>
+        <a href="#files">Camera, photos &amp; files</a>
+        <a href="#notifications">Notifications</a>
+        <a href="#apple">Apple actions &amp; links</a>
+        <a href="#android">Android scanner</a>
+        <a href="#storage">Storage &amp; deletion</a>
+        <a href="#support-email">Support email</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-      <h2>Camera, photos and files</h2>
-      <p>Photos and files are selected through operating-system pickers or when you explicitly open a supported item in Raag Riyaz. On Apple devices, the app accesses the camera only when you choose to scan lesson notes. On Android, a Scan action opens Google Play services’ document-scanner UI; gallery import inside that scanner is disabled. Selected images, PDFs, scans, audio files, written notes and lesson metadata are copied into the app’s private Classroom or Raag Library storage.</p>
+      <article class="policy-body">
+        <section id="summary">
+          <h2>Summary</h2>
+          <p>Raag Riyaz does not contain advertising, developer-operated analytics or tracking, and it does not send your practice content to a developer-operated server. Practice settings, history, recordings, pitch observations, Classroom content and Raag Library content are processed and stored on your device. The Android document scanner’s limited Google Play services diagnostics are described separately below.</p>
+        </section>
 
-      <h2>Android document-scanner diagnostics</h2>
-      <p>The Android app includes Google Play services ML Kit document scanner 16.0.0. Its scanner component may be downloaded on first use. Google states that ML Kit Android SDKs may collect device and application information, device or per-installation identifiers, performance metrics, API configuration, input/output size, feature version, feature-event types and error codes for diagnostics and usage analytics. Google states that this metadata is encrypted in transit and is not transferred to third parties. Scanned page content is processed on-device and is not included in the documented telemetry. This is Google Play services collection, not developer-operated Raag Riyaz analytics. See <a href="https://developers.google.com/ml-kit/android-data-disclosure">Google’s ML Kit Android data disclosure</a>.</p>
+        <section id="microphone">
+          <h2>Microphone and audio</h2>
+          <p>The app accesses the microphone only after you grant permission and start a swara exercise, Breath Test or recording feature. Pitch analysis runs on the device. Breath Test stores an improving duration result, not microphone audio. When you choose to record, the resulting audio is saved in the app’s private local storage. Microphone audio and pitch observations are not sent to us.</p>
+        </section>
 
-      <h2>Practice history and settings</h2>
-      <p>The app stores preferences, presets, session history, custom raags, learned-raaga state, coaching configuration and lesson dates locally. The current public interface does not offer MIDI setup. Conservative Bluetooth and local-network purpose strings remain in the binary for devices that retained a legacy beta MIDI configuration. If such a configuration is still enabled, MIDI messages are processed only on the device and practice content is not sent to us.</p>
+        <section id="files">
+          <h2>Camera, photos and files</h2>
+          <p>Photos and files are selected through operating-system pickers or when you explicitly open a supported item in Raag Riyaz. On Apple devices, the app accesses the camera only when you choose to scan lesson notes. On Android, a Scan action opens Google Play services’ document-scanner UI; gallery import inside that scanner is disabled. Selected images, PDFs, scans, audio files, written notes and lesson metadata are copied into the app’s private Classroom or Raag Library storage.</p>
+        </section>
 
-      <h2>Sharing</h2>
-      <p>Content leaves the app only when you explicitly use the device’s sharing or export controls, such as AirDrop, Files, Messages or another installed app. The destination you choose then handles the shared item under its own privacy terms. Raag Riyaz does not automatically upload your recordings or notes.</p>
+        <section id="notifications">
+          <h2>Notifications and reminders</h2>
+          <p>On Apple devices, the optional daily practice reminder is off by default. Notification permission is requested only after you choose to enable that reminder in Insights or save a one-time homework reminder in Classroom. Reminder times, lesson references and scheduling state are stored locally. Notifications are scheduled by the device; Raag Riyaz does not operate a push-notification server. Lock-screen reminder text is deliberately generic and does not include your private homework or lesson notes.</p>
+        </section>
 
-      <h2>Apple external links</h2>
-      <p>The Apple version may offer optional links to creator lessons on YouTube or the Raag Riyaaz fundraiser for Isha Vidhya on the Conscious Planet website. These pages open outside Raag Riyaz and are governed by their own privacy, cookie and payment policies. No payment details or donation status are returned to Raag Riyaz.</p>
+        <section id="practice-data">
+          <h2>Practice history and settings</h2>
+          <p>The app stores preferences, presets, session history, custom raags, learned-raaga state, coaching configuration and lesson dates locally. Local usage counters may be used to decide whether to ask Apple to present its native rating prompt after meaningful use. Raag Riyaz does not know whether Apple displayed the prompt or whether you submitted a rating.</p>
+          <p>The current public interface does not offer MIDI setup. Conservative Bluetooth and local-network purpose strings remain in the Apple binary for devices that retained a legacy beta MIDI configuration. If such a configuration is still enabled, MIDI messages are processed only on the device and practice content is not sent to us.</p>
+        </section>
 
-      <h2>Support email</h2>
-      <p>If you email support, we receive your email address and the information you voluntarily include. We use it only to respond, troubleshoot, prevent abuse and meet legal obligations—not for advertising. We retain support correspondence only as long as reasonably needed for those purposes. You may request deletion at <a href="mailto:koushikp@alum.iisc.ac.in">koushikp@alum.iisc.ac.in</a> unless retention is legally required. Do not send private lesson content unless it is needed and you choose to do so.</p>
+        <section id="sharing">
+          <h2>Sharing</h2>
+          <p>Content leaves the app only when you explicitly use the device’s sharing or export controls, such as AirDrop, Files, Messages or another installed app. The destination you choose then handles the shared item under its own privacy terms. Raag Riyaz does not automatically upload your recordings or notes.</p>
+        </section>
 
-      <h2>Storage, backups and deletion</h2>
-      <p>Version 1.0 has no developer-operated cloud sync. Delete individual items with their in-app controls. Deleting the app removes its local container. Apple device or iCloud backups may retain an older copy according to Apple’s settings and retention rules. Android cloud backup and device transfer are disabled, so clearing Android app data or uninstalling can permanently remove content that was not exported. Android Settings can create a complete versioned ZIP containing local text, settings, history and media; this version can share but cannot restore that ZIP.</p>
+        <section id="apple">
+          <h2>Apple rating, sharing and external links</h2>
+          <p>The Apple version includes optional Rate and Share actions. Rate opens the App Store review page. Share opens Apple’s system share sheet with the app link. After meaningful use, the app may also ask StoreKit to present Apple’s native rating prompt; Apple decides whether it appears and handles any rating or review.</p>
+          <p>The Apple version may offer optional links to creator lessons on YouTube or the Raag Riyaz fundraiser for Isha Vidhya on the Conscious Planet website. These pages open outside Raag Riyaz and are governed by their own privacy, cookie and payment policies. No payment details or donation status are returned to Raag Riyaz.</p>
+        </section>
 
-      <h2>Children</h2>
-      <p>Raag Riyaz is a general-audience music practice tool and is not designated as a Kids Category app. The app has no account or developer-operated data-collection backend. A parent, guardian or teacher should supervise a child’s use of support email, device sharing and external links.</p>
+        <section id="android">
+          <h2>Android document-scanner diagnostics</h2>
+          <p>The Android app uses Google Play services’ ML Kit document scanner. Its scanner component may be downloaded on first use. Google states that ML Kit Android SDKs may collect device and application information, device or per-installation identifiers, performance metrics, API configuration, input/output size, feature version, feature-event types and error codes for diagnostics and usage analytics. Google states that this metadata is encrypted in transit and is not transferred to third parties. Scanned page content is processed on-device and is not included in the documented telemetry. This is Google Play services collection, not developer-operated Raag Riyaz analytics. See <a href="https://developers.google.com/ml-kit/android-data-disclosure" rel="external">Google’s ML Kit Android data disclosure</a>.</p>
+        </section>
 
-      <h2>Security and changes</h2>
-      <p>Your content benefits from the security controls of iOS, iPadOS or Android and the app’s private container, but no storage method is risk-free. We may update this policy when app behavior changes. The effective date above will change, and material changes will be disclosed through the app or its store listing when appropriate.</p>
+        <section id="support-email">
+          <h2>Support email</h2>
+          <p>If you email support, we receive your email address and the information you voluntarily include. We use it only to respond, troubleshoot, prevent abuse and meet legal obligations—not for advertising. We retain support correspondence only as long as reasonably needed for those purposes. You may request deletion at <a href="mailto:koushikp@alum.iisc.ac.in">koushikp@alum.iisc.ac.in</a> unless retention is legally required. Do not send private lesson content unless it is needed and you choose to do so.</p>
+        </section>
 
-      <h2>Contact</h2>
-      <p>For privacy questions or requests, contact Koushik PG at <a href="mailto:koushikp@alum.iisc.ac.in">koushikp@alum.iisc.ac.in</a>.</p>
-    </article>
+        <section id="storage">
+          <h2>Storage, backups and deletion</h2>
+          <p>Raag Riyaz has no developer-operated cloud sync. Delete individual items with their in-app controls. Deleting the app removes its local container. Apple device or iCloud backups may retain an older copy according to Apple’s settings and retention rules. Android cloud backup and device transfer are disabled, so clearing Android app data or uninstalling can permanently remove content that was not exported. Android Settings can create a complete versioned ZIP containing local text, settings, history and media; the current Android version can share but cannot restore that ZIP.</p>
+        </section>
+
+        <section id="children">
+          <h2>Children</h2>
+          <p>Raag Riyaz is a general-audience music practice tool and is not designated as a Kids Category app. The app has no account or developer-operated data-collection backend. A parent, guardian or teacher should supervise a child’s use of support email, device sharing and external links.</p>
+        </section>
+
+        <section id="security">
+          <h2>Security and changes</h2>
+          <p>Your content benefits from the security controls of iOS, iPadOS or Android and the app’s private container, but no storage method is risk-free. We may update this policy when app behavior changes. The effective date above will change, and material changes will be disclosed through the app or its store listing when appropriate.</p>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>For privacy questions or requests, contact Koushik PG at <a href="mailto:koushikp@alum.iisc.ac.in">koushikp@alum.iisc.ac.in</a>.</p>
+        </section>
+      </article>
+    </div>
   </main>
 
   <footer>
-    <p>© 2026 Koushik PG. Raag Riyaz.</p>
-    <p><a href="index.html">Support</a> · <a href="mailto:koushikp@alum.iisc.ac.in">Contact</a></p>
+    <div class="footer-brand">
+      <img src="assets/app-icon.png" width="44" height="44" alt="">
+      <p><strong>Raag Riyaz</strong><span>Your practice stays yours.</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#support">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:koushikp@alum.iisc.ac.in">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Koushik PG. Raag Riyaz.</p>
   </footer>
 </body>
 </html>
