@@ -346,6 +346,47 @@ p {
   background: #91e6c3;
 }
 
+.button.store {
+  min-width: 176px;
+  flex-direction: row;
+  gap: 11px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.045));
+  border-color: rgba(255, 255, 255, 0.26);
+  color: #fff;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.38);
+}
+
+.button.store:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.07));
+  border-color: rgba(255, 255, 255, 0.42);
+  color: #fff;
+}
+
+.store-logo {
+  width: 21px;
+  height: 21px;
+  flex: none;
+  display: block;
+}
+
+.store-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.12;
+}
+
+.store-copy .button-kicker {
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.store-copy strong {
+  font-size: 1.06rem;
+  color: #fff;
+}
+
 .trust-list {
   display: flex;
   flex-wrap: wrap;
